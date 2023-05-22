@@ -21,6 +21,7 @@ createBoxes(inputEl.value)
 function onDestroy(){
 boxEl.innerHTML = ''
 inputEl.value = null;
+size = 20;
 }
 
 function createBoxes(amount){
